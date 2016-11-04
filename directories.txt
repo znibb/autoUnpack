@@ -1,0 +1,3 @@
+RAR_DIR=rar_folder
+UNPACK_DIR=media_folder
+TEMPLATE_DIR=fileTemplates
