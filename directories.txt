@@ -1,3 +1,10 @@
+## Directory labels for shared use between scripts
+
+## Folder containing downloaded rar files
 RAR_DIR=rar_folder
+
+## Folder where unpacked media is stored
 UNPACK_DIR=media_folder
+
+## Folder containing example files used for testing
 TEMPLATE_DIR=fileTemplates
