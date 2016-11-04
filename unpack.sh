@@ -3,6 +3,11 @@
 ## Source directories
 . directories.txt
 
+## Prepare media directory if it doesn't already exist
+if [[ ! -d $UNPACK_DIR ]]; then
+  mkdir $UNPACK_DIR
+fi
+
 ## For each rar file in rar folder
 for file in $RAR_DIR/*.rar; do
   ## Determine current file name
