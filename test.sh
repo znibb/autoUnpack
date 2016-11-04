@@ -4,7 +4,7 @@
 . directories.txt
 
 ## List contents of the rar dir
-ls $RAR_DIR
+ls -R $RAR_DIR
 echo
 
 ## Recursively list contents of the unpacked dir
