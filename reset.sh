@@ -4,4 +4,6 @@
 . directories.txt
 
 ## Reset media directory to empty state
-rm -r $UNPACK_DIR/*
+rm -r $DEFAULT_DIR/*
+rm -r $VIDEO_DIR/*
+rm -r $AUDIO_DIR/*
