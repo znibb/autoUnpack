@@ -4,7 +4,9 @@
 RAR_DIR=rar_folder
 
 ## Folder where unpacked media is stored
-UNPACK_DIR=media_folder
+DEFAULT_DIR=unsorted
+VIDEO_DIR=video
+AUDIO_DIR=audio
 
 ## Folder containing example files used for testing
 TEMPLATE_DIR=fileTemplates
